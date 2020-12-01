@@ -14,10 +14,10 @@
 // +----------------------------------------------------------------------
 
 return [
-    'ACCESSKEY' => 'ETQcNVAs6b8Rh1moXlIK-9EMbsZhiiTxiUTuOY1_',//你的accessKey
-    'SECRETKEY' => 'gnYi22sTZCrFYlEwSeHMjBoRl53CemGw5sS16d8X',//你的secretKey
-    'BUCKET' => 'bimu',//上传的空间
-    'DOMAIN'=>'http://love.q05.cc/',//空间绑定的域名
+    'ACCESSKEY' => '',//你的accessKey
+    'SECRETKEY' => '',//你的secretKey
+    'BUCKET' => '',//上传的空间
+    'DOMAIN'=>'',//空间绑定的域名
     //缓存到期时间
     'cacheTime'             =>0,
     // 应用名称
