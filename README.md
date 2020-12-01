@@ -44,6 +44,10 @@
 
 ## 搭建
 
+### 导入数据库 
+
+/community/community.sql
+
 ### 修改后端代码
 
 /config/database.php
@@ -61,6 +65,8 @@
 ```
 
 如何部署服务器thinkphp项目自行百度吧
+
+
 
 ### 修改前端代码
 
