@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "readMore-查看更多",
+  "usingComponents": {
+    "u-read-more": "/uview-ui/components/u-read-more/u-read-more",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "动态",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "community-info-comment": "/components/communityInfo-comment/communityInfo-comment",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "community-card": "/components/community-card/index"
+  }
+}

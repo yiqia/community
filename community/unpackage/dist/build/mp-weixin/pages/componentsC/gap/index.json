@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "gap-间隔槽",
+  "usingComponents": {
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

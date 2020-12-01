@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "upload-上传",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

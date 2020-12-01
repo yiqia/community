@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "loading-加载动画",
+  "usingComponents": {
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

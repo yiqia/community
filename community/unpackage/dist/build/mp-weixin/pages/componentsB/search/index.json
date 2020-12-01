@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "search-搜索框",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

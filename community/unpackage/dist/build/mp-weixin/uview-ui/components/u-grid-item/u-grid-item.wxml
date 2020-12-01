@@ -1,0 +1,1 @@
+<view class="u-grid-item data-v-83347bea" style="{{'background:'+(bgColor)+';'+('width:'+(width)+';')}}" hover-class="{{hoverClass}}" hover-stay-time="{{200}}" data-event-opts="{{[['tap',[['click',['$event']]]]]}}" bindtap="__e"><view class="{{['u-grid-item-box data-v-83347bea',showBorder?'u-border-right u-border-bottom':'']}}"><slot></slot></view></view>

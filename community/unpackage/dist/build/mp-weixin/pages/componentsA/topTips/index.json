@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "topTips-消息提示",
+  "usingComponents": {
+    "u-top-tips": "/uview-ui/components/u-top-tips/u-top-tips",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

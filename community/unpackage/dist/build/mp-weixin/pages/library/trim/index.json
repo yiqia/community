@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "trim-去除空格",
+  "usingComponents": {
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

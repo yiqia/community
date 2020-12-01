@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "progress-进度条",
+  "usingComponents": {
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "u-circle-progress": "/uview-ui/components/u-circle-progress/u-circle-progress",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

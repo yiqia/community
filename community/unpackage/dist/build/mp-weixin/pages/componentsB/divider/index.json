@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "divider-分割线",
+  "usingComponents": {
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

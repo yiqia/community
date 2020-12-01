@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "index-u-waterfall-left": "/pages/componentsB/waterfall/index-u-waterfall-left",
+    "index-u-waterfall-right": "/pages/componentsB/waterfall/index-u-waterfall-right"
+  }
+}

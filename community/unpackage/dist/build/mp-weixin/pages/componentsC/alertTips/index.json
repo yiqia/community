@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "alertTips-警告提示",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-alert-tips": "/uview-ui/components/u-alert-tips/u-alert-tips",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

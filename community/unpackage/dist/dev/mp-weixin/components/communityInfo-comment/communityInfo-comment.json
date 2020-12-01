@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "comment-input": "/components/comment-input/comment-input",
+    "user-row": "/components/user-row/index"
+  }
+}

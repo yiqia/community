@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "coupon-优惠券",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

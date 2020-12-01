@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar",
+    "community-card": "/components/community-card/index",
+    "community-comment": "/components/community-comment/index"
+  }
+}

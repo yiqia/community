@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "grid-宫格布局",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-grid": "/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uview-ui/components/u-grid-item/u-grid-item",
+    "u-badge": "/uview-ui/components/u-badge/u-badge",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

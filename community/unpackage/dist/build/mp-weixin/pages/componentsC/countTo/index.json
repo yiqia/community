@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "countTo-数字滚动",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-count-to": "/uview-ui/components/u-count-to/u-count-to",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

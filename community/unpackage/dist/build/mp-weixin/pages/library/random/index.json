@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "random-随机数生成",
+  "usingComponents": {
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

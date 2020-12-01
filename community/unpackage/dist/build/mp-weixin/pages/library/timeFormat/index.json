@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "timeFormat-时间格式化",
+  "usingComponents": {
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

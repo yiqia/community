@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "listCell-列表",
+  "usingComponents": {
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-badge": "/uview-ui/components/u-badge/u-badge",
+    "u-switch": "/uview-ui/components/u-switch/u-switch",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-field": "/uview-ui/components/u-field/u-field",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

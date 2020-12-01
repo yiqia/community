@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "backTop-返回顶部",
+  "usingComponents": {
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

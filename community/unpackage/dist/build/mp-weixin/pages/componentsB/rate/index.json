@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "rate-评分",
+  "usingComponents": {
+    "u-rate": "/uview-ui/components/u-rate/u-rate",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "avatarCropper-头像裁剪",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "table-表格",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-table": "/uview-ui/components/u-table/u-table",
+    "u-tr": "/uview-ui/components/u-tr/u-tr",
+    "u-th": "/uview-ui/components/u-th/u-th",
+    "u-td": "/uview-ui/components/u-td/u-td",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

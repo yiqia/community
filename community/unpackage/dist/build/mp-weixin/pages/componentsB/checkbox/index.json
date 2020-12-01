@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "checkbox-复选框",
+  "usingComponents": {
+    "u-checkbox-group": "/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

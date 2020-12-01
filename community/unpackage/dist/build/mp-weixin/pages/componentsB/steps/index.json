@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "steps-步骤条",
+  "usingComponents": {
+    "u-steps": "/uview-ui/components/u-steps/u-steps",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

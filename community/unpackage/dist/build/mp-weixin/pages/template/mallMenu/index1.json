@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "mallMenu-商城分类",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

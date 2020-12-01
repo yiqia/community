@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "popup-弹窗",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

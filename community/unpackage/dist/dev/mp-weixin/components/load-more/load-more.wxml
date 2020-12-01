@@ -1,0 +1,1 @@
+<view class="container"><text style="{{'margin-right:10rpx;'+('color:'+color)}}">{{text}}</text><u-icon vue-id="0fd96ec8-1" name="arrow-down" color="{{color}}" size="{{size}}" bind:__l="__l"></u-icon></view>

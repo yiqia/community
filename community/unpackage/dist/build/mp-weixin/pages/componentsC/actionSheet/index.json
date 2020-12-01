@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "actionSheet-操作菜单",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

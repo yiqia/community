@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "lazyLoad-懒加载",
+  "usingComponents": {
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

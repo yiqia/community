@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/home/index2",
+    "pages/my/my",
+    "pages/my/login",
+    "pages/send/send",
+    "pages/community/index",
+    "pages/my/info",
+    "pages/my/userSend",
+    "pages/home/index3"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uView",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index2",
+        "iconPath": "static/uview/example/component.png",
+        "selectedIconPath": "static/uview/example/component_select.png",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/home/index3",
+        "iconPath": "static/uview/example/component.png",
+        "selectedIconPath": "static/uview/example/component_select.png",
+        "text": "组件"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

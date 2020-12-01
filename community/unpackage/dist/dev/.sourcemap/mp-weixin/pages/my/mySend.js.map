@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,4F;AACAA,UAAU,CAACC,eAAD,CAAV,C","file":"pages/my/mySend.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/my/mySend.vue'\ncreatePage(Page)"],"sourceRoot":""}

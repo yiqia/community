@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "getRect-元素节点",
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "工具",
+  "usingComponents": {
+    "page-nav": "/components/page-nav/page-nav",
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-gap": "/uview-ui/components/u-gap/u-gap"
+  }
+}

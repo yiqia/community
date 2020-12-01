@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "numberBox-步进器",
+  "usingComponents": {
+    "u-number-box": "/uview-ui/components/u-number-box/u-number-box",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="{{['u-tips data-v-5554c006','u-'+type,isShow?'u-tip-show':'']}}" style="{{'top:'+(navbarHeight+'px')+';'+('z-index:'+(uZIndex)+';')}}">{{title}}</view>

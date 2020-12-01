@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "countDown-倒计时",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-count-down": "/uview-ui/components/u-count-down/u-count-down",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

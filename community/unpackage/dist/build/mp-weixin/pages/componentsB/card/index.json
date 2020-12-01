@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "card-卡片",
+  "usingComponents": {
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

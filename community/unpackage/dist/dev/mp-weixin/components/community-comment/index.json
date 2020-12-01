@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "comment-input": "/components/comment-input/comment-input",
+    "user-row": "/components/user-row/index"
+  }
+}

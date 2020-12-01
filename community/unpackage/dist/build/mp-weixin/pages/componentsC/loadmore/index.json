@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "loadmore-加载更多",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "tabbar-底部导航栏",
+  "usingComponents": {
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "section-查看更多",
+  "usingComponents": {
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

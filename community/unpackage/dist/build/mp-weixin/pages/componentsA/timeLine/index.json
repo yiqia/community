@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "timeLine-时间轴",
+  "usingComponents": {
+    "u-time-line": "/uview-ui/components/u-time-line/u-time-line",
+    "u-time-line-item": "/uview-ui/components/u-time-line-item/u-time-line-item",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

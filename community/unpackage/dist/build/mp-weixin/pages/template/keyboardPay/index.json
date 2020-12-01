@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "keyboardPay 自定义键盘支付",
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-keyboard": "/uview-ui/components/u-keyboard/u-keyboard",
+    "u-message-input": "/uview-ui/components/u-message-input/u-message-input"
+  }
+}

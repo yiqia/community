@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "mask-遮罩层",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-mask": "/uview-ui/components/u-mask/u-mask",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

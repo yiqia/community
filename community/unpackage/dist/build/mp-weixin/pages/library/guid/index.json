@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "guid-全局唯一标识符",
+  "usingComponents": {
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

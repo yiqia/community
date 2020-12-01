@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "collapse-折叠面板",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-collapse": "/uview-ui/components/u-collapse/u-collapse",
+    "u-collapse-item": "/uview-ui/components/u-collapse-item/u-collapse-item",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

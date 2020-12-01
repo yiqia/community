@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "keyboard-键盘",
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-keyboard": "/uview-ui/components/u-keyboard/u-keyboard",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

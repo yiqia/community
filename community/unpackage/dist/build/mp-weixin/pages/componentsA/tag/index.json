@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "tag-标签",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

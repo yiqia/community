@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "城市选择",
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "city-select": "/pages/template/citySelect/u-city-select"
+  }
+}

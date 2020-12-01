@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "timeFrom-多久之前",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection",
+    "u-gap": "/uview-ui/components/u-gap/u-gap"
+  }
+}

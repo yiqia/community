@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "noNetwork-没有网络",
+  "usingComponents": {
+    "u-no-network": "/uview-ui/components/u-no-network/u-no-network",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

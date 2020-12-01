@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "select-列选择器",
+  "usingComponents": {
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "randomArray-数组乱序",
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

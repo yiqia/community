@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "vuex-全局变量",
+  "usingComponents": {
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

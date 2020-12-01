@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "calendar-日历",
+  "usingComponents": {
+    "u-calendar": "/uview-ui/components/u-calendar/u-calendar",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

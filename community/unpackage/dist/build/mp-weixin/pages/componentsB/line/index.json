@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "line-线条",
+  "usingComponents": {
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

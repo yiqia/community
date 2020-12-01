@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "skeleton-骨架屏",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-skeleton": "/uview-ui/components/u-skeleton/u-skeleton",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

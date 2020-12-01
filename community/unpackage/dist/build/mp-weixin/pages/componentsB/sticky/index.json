@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "sticky-吸顶",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

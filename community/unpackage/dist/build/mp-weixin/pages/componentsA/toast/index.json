@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "toast-轻提示",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

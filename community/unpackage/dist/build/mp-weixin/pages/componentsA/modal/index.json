@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "modal-模态框",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

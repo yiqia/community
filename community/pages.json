@@ -1,0 +1,113 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+		    "path" : "pages/home/index",
+		    "style" : {
+				"navigationBarTitleText":"首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "pages/home/index2",
+		    "style" : {
+				"navigationBarTitleText":"首页",
+				"enablePullDownRefresh": true
+			}
+		},{
+		    "path" : "pages/my/my",
+		    "style" : {
+				"navigationBarTitleText":"我的"
+			}
+		},
+		{
+		    "path" : "pages/my/login",
+		    "style" : {
+				"navigationBarTitleText":"登录"
+			}
+		},
+		{
+		    "path" : "pages/send/send",
+		    "style" : {
+				"navigationBarTitleText":"发布"
+			}
+		},
+		{
+		    "path" : "pages/community/index",
+		    "style" : {
+				"navigationBarTitleText":"动态",
+				"enablePullDownRefresh": true
+			}
+		}
+
+        ,{
+            "path" : "pages/my/info",
+            "style" : {
+				"navigationBarTitleText":"设置"
+			}
+        }
+		,{
+		    "path" : "pages/my/set",
+		   "style" : {
+		   	"navigationBarTitleText":"设置"
+		   }
+		}
+		,{
+		    "path" : "pages/my/userSend",
+		    "style" : {
+				"navigationBarTitleText":"个人动态",
+				"enablePullDownRefresh": true
+			}
+		}
+		,{
+		    "path" : "pages/send/feedback",
+		    "style" : {
+				"navigationBarTitleText":"反馈"
+			}
+		}
+		,{
+		    "path" : "pages/about/about",
+		    "style" : {
+				"navigationBarTitleText":"关于我们"
+			}
+		},
+		{
+		    "path" : "pages/search/search",
+		    "style" : {
+				"navigationBarTitleText":"搜索"
+			}
+		}
+        ,{
+            "path" : "pages/home/index3",
+            "style" : {}
+        }
+       
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/home/index2",
+				"iconPath": "static/uview/example/component.png",
+				"selectedIconPath": "static/uview/example/component_select.png",
+				"text": "组件"
+			},
+			{
+					"pagePath": "pages/home/index3",
+					"iconPath": "static/uview/example/component.png",
+					"selectedIconPath": "static/uview/example/component_select.png",
+					"text": "组件"
+				}
+		]
+	}
+}

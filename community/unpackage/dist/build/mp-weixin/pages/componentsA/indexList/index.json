@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "indexList-索引列表",
+  "usingComponents": {
+    "u-index-list": "/uview-ui/components/u-index-list/u-index-list",
+    "u-index-anchor": "/uview-ui/components/u-index-anchor/u-index-anchor"
+  }
+}

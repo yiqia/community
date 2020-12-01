@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "empty-内容为空",
+  "usingComponents": {
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-table": "/uview-ui/components/u-table/u-table",
+    "u-tr": "/uview-ui/components/u-tr/u-tr",
+    "u-td": "/uview-ui/components/u-td/u-td",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

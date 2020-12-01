@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "link-链接",
+  "usingComponents": {
+    "u-link": "/uview-ui/components/u-link/u-link",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

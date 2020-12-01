@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-dropdown-list": "/uview-ui/components/u-dropdown-list/u-dropdown-list"
+  }
+}

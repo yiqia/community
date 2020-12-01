@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  },
+  "component": true
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "route-路由跳转",
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

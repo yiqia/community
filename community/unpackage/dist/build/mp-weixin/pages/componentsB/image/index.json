@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "image-图片",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

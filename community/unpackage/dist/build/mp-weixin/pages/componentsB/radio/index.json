@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "radio-单选框",
+  "usingComponents": {
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

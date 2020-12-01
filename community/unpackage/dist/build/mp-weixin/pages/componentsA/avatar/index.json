@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "avatar-用户头像展示",
+  "usingComponents": {
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

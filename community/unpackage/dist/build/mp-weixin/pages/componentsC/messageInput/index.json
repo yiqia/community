@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "messageInput-验证码输入",
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-message-input": "/uview-ui/components/u-message-input/u-message-input",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}

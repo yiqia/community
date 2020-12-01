@@ -1,0 +1,1 @@
+<text data-event-opts="{{[['tap',[['openLink',['$event']]]]]}}" class="u-link data-v-27d2d060" style="{{'color:'+(color)+';'+('font-size:'+(fontSize+'rpx')+';')+('border-bottom:'+(underLine?'1px solid '+(lineColor?lineColor:color):'none')+';')+('padding-bottom:'+(underLine?'0rpx':'0')+';')}}" catchtap="__e"><slot></slot></text>

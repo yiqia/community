@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "tabbar": "/components/tabbar/tabbar",
+    "community-card": "/components/community-card/index",
+    "community-comment": "/components/community-comment/index"
+  }
+}

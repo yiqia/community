@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "queryParams-对象转URL参数",
+  "usingComponents": {
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
+  }
+}
