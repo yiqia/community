@@ -1,0 +1,107 @@
+{include file="public/header" /}
+
+	<body class="layui-layout-body">
+		<div class="layui-fluid">
+			<div class="layui-row layui-col-space20">
+				<div class="layui-col-md3">
+				</div>
+				<div class="layui-col-md6">
+					<div class="layui-card">
+						<div class="layui-card-header">用户修改</div>
+						<div class="layui-card-body">
+							<form class="layui-form" action="" lay-filter="component-form-element">
+								<div class="layui-row layui-col-space10 layui-form-item">
+									<div class="layui-col-lg6">
+										<label class="layui-form-label">ID：</label>
+										<div class="layui-input-block">
+											<input type="text" name="userId" lay-verify="required" id="userId" disabled autocomplete="off" class="layui-input">
+										</div>
+									</div>
+								</div>
+								<div class="layui-row layui-col-space10 layui-form-item">
+									<div class="layui-col-lg6">
+										<label class="layui-form-label">用户名：</label>
+										<div class="layui-input-block">
+											<input type="text" name="username" lay-verify="required" id="userName"   disabled autocomplete="off" class="layui-input">
+										</div>
+									</div>
+								</div>
+                                <div class="layui-row layui-col-space10 layui-form-item">
+                                    <div class="layui-col-lg6">
+                                        <label class="layui-form-label">邮箱：</label>
+                                        <div class="layui-input-block">
+                                            <input type="text" name="email" lay-verify="required" id="userEmail"   autocomplete="off" class="layui-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="layui-row layui-col-space10 layui-form-item">
+                                    <div class="layui-col-lg6">
+                                        <label class="layui-form-label">密码：</label>
+                                        <div class="layui-input-block">
+                                            <input type="text" name="password" lay-verify="required" id="userPass"   autocomplete="off" class="layui-input">
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="layui-form-item">
+									<div class="layui-input-block">
+										<button class="layui-btn" lay-submit lay-filter="component-form-element">立即提交</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="layui-col-md6">
+				</div>
+			</div>
+		</div>
+		<script src="/layuiadmin/layui/layui.js"></script>
+		<script>
+			layui.config({
+				base: '../../../layuiadmin/' //静态资源所在路径
+			}).extend({
+				index: 'lib/index' //主入口模块
+			}).use(['index', 'form'], function() {
+				var $ = layui.$,
+					admin = layui.admin,
+					element = layui.element,
+					setter = layui.setter,
+					form = layui.form;
+				var user=localStorage.getItem("session");
+				form.render(null, 'component-form-element');
+				element.render('breadcrumb', 'breadcrumb');
+                const userItem = JSON.parse(sessionStorage.getItem('userItem'));
+                $('#userId').val(userItem.Id)
+                $('#userEmail').val(userItem.email)
+                $('#userName').val(userItem.username)
+				form.on('submit(component-form-element)', function(data) {
+					//layer.msg(JSON.stringify(data.field));
+					var d=data.field
+					$.ajax({
+						type: 'post',
+						url: setter.api + '/admin/user/editUser',
+						data: d,
+						success: function(res) {
+							if (res.code == 200) {
+								layer.msg('修改成功', {
+									offset: '15px',
+									icon: 1,
+									time: 1000
+								});
+							} else {
+								layer.msg('修改失败', {
+									offset: '15px',
+									icon: 2
+								})
+							}
+						}
+					});
+					
+					
+					return false;
+				});
+			});
+		</script>
+	</body>
+
+</html>

@@ -38,6 +38,7 @@
 </template>
 
 <script>
+// 一奇开源 QQ330729121
 import communityCard from '../../components/community-card/index.vue';
 import communityComment from '../../components/community-comment/index.vue';
 import tabbar from "../../components/tabbar/tabbar"

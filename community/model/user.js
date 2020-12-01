@@ -1,5 +1,6 @@
 import {Http} from "../utils/http";
 import {config} from "../config/config";
+// 一奇开源 QQ330729121
 class User{
     static async login(username,password){
         const login = await Http.request({

@@ -55,6 +55,7 @@
 </template>
 
 <script>
+// 一奇开源 QQ330729121
 import {config} from "../../config/config";
 import {Community} from "../../model/community";
 import headerTitle from "../../components/header-title/header-title.vue"

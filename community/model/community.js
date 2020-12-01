@@ -1,7 +1,7 @@
 import {Http} from "../utils/http";
 import {Paging} from "../utils/paging";
 import {config} from "../config/config";
-
+// 一奇开源 QQ330729121
 class Community{
 	static async getContent(group=''){
 		if(group==''){

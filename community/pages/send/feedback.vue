@@ -39,6 +39,7 @@
 </template>
 
 <script>
+// 一奇开源 QQ330729121
 import {config} from "../../config/config";
 import {User} from "../../model/user.js";
 import headerTitle from "../../components/header-title/header-title.vue"
