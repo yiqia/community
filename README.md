@@ -30,7 +30,7 @@
 
 示例地址：http://py.q05.cc/app/#/
 
-![image-20201201205233426](https://i.loli.net/2020/12/01/592qDXuopFLVOIN.png)
+![image-20201201205233426](https://i.loli.net/2020/12/01/592qDXuopFLVOIN.png)![image-20201201214446729](https://i.loli.net/2020/12/01/XYDVm52wbadWFNz.png)![image-20201201214457935](https://i.loli.net/2020/12/01/VXRdPyHNmJQobfS.png)
 
 ## 技术
 
@@ -63,6 +63,19 @@
     // 端口
     'hostport'        => '',
 ```
+
+### 修改七牛云配置
+
+/config/app.php
+
+```php
+'ACCESSKEY' => '',//你的accessKey
+    'SECRETKEY' => '',//你的secretKey
+    'BUCKET' => '',//上传的空间
+    'DOMAIN'=>'',//空间绑定的域名
+```
+
+
 
 如何部署服务器thinkphp项目自行百度吧
 
