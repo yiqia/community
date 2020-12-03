@@ -6,7 +6,7 @@ use think\db;
 use think\Model;
 use app\common\model\User as UserModel;
 use app\lib\exception\BaseException;
-// 一奇开源 QQ330729121
+
 
 class Content extends Model
 {

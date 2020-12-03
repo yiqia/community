@@ -4,7 +4,7 @@ namespace app\api\controller\v1;
 use app\common\controller\BaseController;
 use app\common\validate\ContentValidate;
 use app\common\model\Content as ContentModel;
-// 一奇开源 QQ330729121
+
 class Content extends BaseController
 {
     //首页数据

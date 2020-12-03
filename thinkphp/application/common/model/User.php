@@ -1,5 +1,5 @@
 <?php
-// 一奇开源 QQ330729121
+
 namespace app\common\model;
 
 use app\lib\exception\BaseException;

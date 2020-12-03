@@ -1,7 +1,7 @@
 <?php
 
 namespace app\api\controller\v1;
-// 一奇开源 QQ330729121
+
 use app\common\controller\BaseController;
 use app\common\model\User as UserModel;
 use app\common\validate\UserValidate;
