@@ -3,6 +3,7 @@
 		<community-card 
 			:info="info"
 			@tapComment="tapComment"
+			:isShowAll="true"
 			@clickGood="clickGood"
 			@clickCollection="clickCollection"
 			@clickFollow="clickFollow"
@@ -49,7 +50,7 @@
 			if(res.code==200) this.info=res.data;
 			var paging = await Community.getCommunityComment(e.Id);
 			var data = await paging.getMoreData();
-			const resData=Community.makeImages(data.items);
+			const resData=Community.makeImages(data.items,false);
 			this.comment=resData;
 			this.paging=paging;
 			if(!paging.moreData){
@@ -65,7 +66,7 @@
 			var paging = this.paging;
 			if(paging.moreData){
 				var data = await paging.getMoreData();
-				const resData=Community.makeImages(data.items);
+				const resData=Community.makeImages(data.items,false);
 				this.comment=this.comment.concat(resData);
 				this.status="nomore";
 			}else{
@@ -76,7 +77,7 @@
 		async onPullDownRefresh(){
 			var paging = await Community.getCommunityComment(this.Id);
 			var data = await paging.getMoreData();
-			const resData=Community.makeImages(data.items);
+			const resData=Community.makeImages(data.items,false);
 			this.comment=resData;
 			this.paging=paging;
 			if(!paging.moreData){

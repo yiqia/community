@@ -12,9 +12,6 @@ class User{
 			method:'POST'
         })
 		if(!login.errorCode){
-			if(config.compress){
-				login.data.userInfo.avatar=login.data.userInfo.avatar+config.headerCompressRule;
-			}
 			uni.setStorageSync('userInfo',login.data.userInfo);
 			uni.setStorageSync('token',login.data.token);
 			uni.showToast({
@@ -29,27 +26,28 @@ class User{
 		}
 		return false;
     }
-	static async regUser(username,email,password,repassword){
+	static async regUser(username,email,password,repassword,qq){
 	    const reg = await Http.request({
 	        url:'/v1/user/regUser',
 			data:{
 				username,
 				password,
 				email,
-				repassword
+				repassword,
+				qq
 			},
 			method:'POST'
 	    })
-		if(!reg.errorCode){
-			uni.showToast({
-				title:"注册成功"
-			})
-			return true;
-		}else{
+		if(reg.code!=200){
 			uni.showToast({
 				title:reg.msg,
 				icon:"none"
 			})
+		}else{
+			uni.showToast({
+				title:"注册成功"
+			})
+			return true;
 		}
 		return false;
 	}

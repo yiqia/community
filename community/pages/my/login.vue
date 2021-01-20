@@ -10,6 +10,7 @@
 					<input type="text" name="user" value="" placeholder="用户名" />
 					<input type="password" name="pass" value="" placeholder="密码" />
 					<input type="password" name="okpass" value="" placeholder="确认密码" v-if="!isLogin" />
+					<input type="text" name="qq" value="" placeholder="qq号码" v-if="!isLogin" />
 					<input type="text" name="email" value="" placeholder="邮箱" v-if="!isLogin" />
 					<text class="loginText" @click="isLogin ? goRegister() : goLogin()">{{ isLogin ? '没有账号点我注册' : '已有账号点我登录' }}</text>
 				</view>
@@ -64,7 +65,7 @@ export default {
 					},1000)
 				}
 			}else{
-				const reg=await User.regUser(data.user,data.email,data.pass,data.okpass);
+				const reg=await User.regUser(data.user,data.email,data.pass,data.okpass,data.qq);
 				if(reg){
 					this.isLogin=true;
 				}

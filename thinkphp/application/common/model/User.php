@@ -1,5 +1,5 @@
 <?php
-
+// 一奇开源 QQ330729121
 namespace app\common\model;
 
 use app\lib\exception\BaseException;
@@ -32,7 +32,29 @@ class User extends Model
         $data=request()->post();
         $this->isUsername($data['username']);
         $password=password_hash($data['password'], PASSWORD_DEFAULT);
-        $addData = ['username' => $data['username'], 'password' =>$password,'email'=>$data['email']];
+        if(!$data['qq']){
+            $data['qq']=null;
+            $addData = ['username' => $data['username'], 'password' =>$password,'email'=>$data['email']];
+        }else{
+            header('Content-Type: text/HTML;charset=utf-8');
+            $QQ=$data['qq'];
+            if($QQ!=''){
+                $urlPre='http://r.qzone.qq.com/fcg-bin/cgi_get_portrait.fcg?g_tk=1518561325&uins=';
+                $qqdata=file_get_contents($urlPre.$QQ);
+                $qqdata=iconv("GB2312","UTF-8",$qqdata);
+                $pattern = '/portraitCallBack\((.*)\)/is';
+                preg_match($pattern,$qqdata,$result);
+                $result=$result[1];
+            }else{
+                $result=null;
+            }
+           if($result){
+               $name = json_decode($result,true)[$QQ][6];
+           }else{
+               $name=null;
+           }
+            $addData = ['username' => $data['username'], 'password' =>$password,'email'=>$data['email'],'qq'=>$data['qq'],'avatar'=>'http://q2.qlogo.cn/headimg_dl?dst_uin='.$data['qq'].'&spec=5','nickname'=>$name];
+        }
         $res=Db::name('yiqi_user')->insert($addData);
         if($res){
             return true;

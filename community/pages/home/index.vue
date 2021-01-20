@@ -143,6 +143,8 @@ export default {
 					    }
 					});
 				})
+			}else if(e.value==3){
+				var ress = await Community.closeTop(e.Id);
 			}
 			if(ress.code==200){
 				uni.showToast({
@@ -170,14 +172,22 @@ export default {
 			}else{
 				var paging = await Community.getContent(group);
 			}
-			
+			var top = await Community.getCommunityTop();
 			var data = await paging.getMoreData();
 			if(!data.moreData){
 				this.status="nomore";
 			};
-			const resData=Community.makeImages(data.items);
-			this.communityList=resData;
+			const resData=Community.makeImages(data.items,false);
+			if(top.data.length>0){
+				var resTop=Community.makeImages(top.data,false);
+				this.communityList=resTop.concat(resData);
+			}else{
+				this.communityList=resData;
+			}
+			
 			this.communityObject=paging;
+			
+			
 			
 		},
 		//初始化圈子类别

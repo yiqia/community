@@ -41,14 +41,14 @@
 						<text slot="right-icon">{{group.length>0?group[okGroup].name:''}}</text>
 						<u-picker v-model="show" mode="selector" :range="group"  range-key="name" @confirm="confirm"></u-picker>
 					</u-cell-item>
-			<!-- 		<u-cell-item title="置顶" :arrow="false">
+					<u-cell-item title="置顶" :arrow="false" v-if="userInfo.group==2">
 						<text class="iconfont" slot="icon" style="margin-right: 10rpx;">
 							&#xe729;
 						</text>
 						<view  slot="right-icon">
 							<u-switch v-model="form.checked"></u-switch>
 						</view>
-					</u-cell-item> -->
+					</u-cell-item>
 				</u-cell-group>
 		</view>
 	</view>
@@ -85,7 +85,8 @@ export default {
 			fileList: [
 				
 			],
-			group:[]
+			group:[],
+			userInfo:{}
 		};
 	},
 	components:{
@@ -100,6 +101,8 @@ export default {
 		if(res.code==200){
 			this.group=res.data;
 		}
+		const userInfo=uni.getStorageSync('userInfo');
+		this.userInfo=userInfo;
 	},
 	methods:{
 		onImageError(e){
@@ -160,7 +163,8 @@ export default {
 					video:null,
 					group_id:this.group[this.okGroup].Id,
 					address:this.address,
-					location:this.location
+					location:this.location,
+					isTop:this.form.checked
 				}
 				var res = await Community.sendContent(data);
 				if(res.code==200){
@@ -180,7 +184,8 @@ export default {
 					video:this.uploadVideo!=''?this.uploadVideo.video:null,
 					group_id:this.group[this.okGroup].Id,
 					address:this.address,
-					location:this.location
+					location:this.location,
+					isTop:this.form.checked
 				}
 				var res = await Community.sendContent(data);
 				if(res.code==200){

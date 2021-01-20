@@ -8,13 +8,17 @@
 						<view class="flexCenter u-skeleton-circle" style="width: 100rpx;height: 100%;" @click="clickHeader(info.user_id)">
 							<u-avatar :src="info.avatar" mode="circle" size="75"></u-avatar>
 						</view>
-						<view style="width:300rpx;height: 100%;margin-top: 15rpx;color: #595959;">
+						<view style="height: 100%;margin-top: 15rpx;color: #595959;">
 							<view style="margin: 8rpx 0;">
 								<text style="font-weight: 600;margin-right: 20rpx;" :style="info.userGroupId!=1?'color:#ff5457':''">{{info.nickname?info.nickname:info.username}}</text>
 								<u-tag v-if="info.userGroupId!=1"
 									:text="info.userGroupName" 
 									size="mini" 
 									:type="info.userGroupType" />
+								<u-tag v-if="info.isTop==1"
+									text="置顶" 
+									size="mini" 
+									type="error" style="margin-left: 10rpx;"/>
 							</view>
 							<text style="color: #b3b3b3;">{{info.create_time}}</text>
 							
@@ -37,7 +41,7 @@
 				</view>
 				<!-- 内容 -->
 				<view style="color:#333333;margin-left: 10rpx;font-size: 30rpx;margin-top: 10rpx;margin-bottom: 30rpx">
-					<text>{{info.content}}</text>
+					<text>{{info.content.length>150 && isShowAll!=true?info.content.substring(0,150)+'......':info.content}}</text>
 				</view>
 				<!-- 图片 -->
 				<view style="margin-top: 32rpx;" v-if="info.images">
@@ -256,6 +260,12 @@
 					label: '删除'
 				});
 			}
+			if(this.info.isTop==1&& uni.getStorageSync('userInfo').group==2){
+				this.optionList.push({
+					value:3,
+					label: '取消置顶'
+				})
+			}
 		},
 		created(){
 			this.userInfo=uni.getStorageSync('userInfo');
@@ -264,7 +274,7 @@
 		initOption(){
 
 		},
-		props:['info','isIndex','noHeaderGo']
+		props:['info','isIndex','noHeaderGo','isShowAll']
 	}
 </script>
 

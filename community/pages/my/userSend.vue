@@ -62,7 +62,7 @@ export default {
 			if (!res.moreData) {
 				this.status = 'nomore';
 			}
-			const resData = Community.makeImages(res.items);
+			const resData = Community.makeImages(res.items,false);
 			this.communityList = resData;
 			this.communityObject = paging;
 		},
@@ -161,7 +161,7 @@ export default {
 		var paging = await this.communityObject;
 		if (paging.moreData) {
 			var data = await paging.getMoreData();
-			const resData = Community.makeImages(data.items);
+			const resData = Community.makeImages(data.items,false);
 			this.communityList = this.communityList.concat(resData);
 			if (!data.moreData) {
 				this.status = 'nomore';

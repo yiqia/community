@@ -12,11 +12,11 @@ class Community{
 		console.log(group)
 		return paging;
 	}
-	static makeImages(data){
+	static makeImages(data,isHeader=true){
 		data.forEach((item)=>{
 			//是否开启图片压缩
 			if(config.compress){
-				if(item.avatar)item.avatar+=config.headerCompressRule;
+				if(item.avatar&&isHeader)item.avatar+=config.headerCompressRule;
 				if(item.images){
 					var imgArray=item.images.split(',');
 					var okimg=[];
@@ -116,7 +116,7 @@ class Community{
 		var res = await Http.send({
 			url:`v1/content/getCommunityInfo?Id=${id}`
 		})
-		var info =Community.makeImages([res.data]);
+		var info =Community.makeImages([res.data],false);
 		res.data=info[0];
 		return res;
 	}
@@ -183,6 +183,28 @@ class Community{
 	static async getSearchHot(){
 		return await Http.send({
 			url:'v1/content/getHotSearch'
+		})
+	}
+	static async getUserCommunityIndex(Id=''){
+		if(Id==''){
+			uni.showToast({
+				title:"用户参数错误",
+				icon:'none'
+			})
+			return ;
+		}
+		return await Http.request({
+			url:`v1/content/getUserCommunityIndex?Id=${Id}`
+		})
+	}
+	static async getCommunityTop(){
+		return await Http.request({
+			url:`v1/content/getCommunityTop`
+		})
+	}
+	static async closeTop(Id){
+		return await Http.tSend({
+			url:`v1/content/closeTop?Id=${Id}`
 		})
 	}
 }

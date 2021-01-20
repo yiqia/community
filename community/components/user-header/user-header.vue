@@ -76,10 +76,7 @@
 			if (user.code == 200) {
 				this.userIndex = user.data;
 				this.loading=false;
-				if(this.userIndex){
-					this.userIndex.userInfo.avatar=User.compressImage(this.userIndex.userInfo.avatar);
-					
-				}
+
 				
 			}
 		},
