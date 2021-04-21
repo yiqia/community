@@ -27,6 +27,7 @@
   -webkit-align-items: center;
           align-items: center;
   background-color: #fff;
-  box-shadow: 4rpx 5rpx 30rpx #eeeff9;
+  -webkit-box-shadow: 4rpx 5rpx 30rpx #eeeff9;
+          box-shadow: 4rpx 5rpx 30rpx #eeeff9;
 }
 

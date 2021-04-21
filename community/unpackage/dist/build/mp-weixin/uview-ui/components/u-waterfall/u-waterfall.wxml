@@ -1,1 +1,0 @@
-<view class="u-waterfall data-v-3217f428"><view class="u-column data-v-3217f428" id="u-left-column"><scoped-slots-left leftList="{{leftList}}" bind:__l="__l"></scoped-slots-left></view><view class="u-column data-v-3217f428" id="u-right-column"><scoped-slots-right rightList="{{rightList}}" bind:__l="__l"></scoped-slots-right></view></view>

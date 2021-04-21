@@ -1,1 +1,1 @@
-<view data-event-opts="{{[['tap',[['click',['$event']]]],['touchmove',[['',['$event']]]]]}}" class="{{['u-mask data-v-96a56556',(zoom)?'u-mask-zoom':'',(show)?'u-mask-show':'']}}" style="{{$root.s0}}" bindtap="__e" catchtouchmove="__e"><slot></slot></view>
+<view data-event-opts="{{[['tap',[['click',['$event']]]],['touchmove',[['',['$event']]]]]}}" class="{{['u-mask data-v-b5ff3e76',(zoom)?'u-mask-zoom':'',(show)?'u-mask-show':'']}}" style="{{$root.s0}}" bindtap="__e" catchtouchmove="__e"><slot></slot></view>

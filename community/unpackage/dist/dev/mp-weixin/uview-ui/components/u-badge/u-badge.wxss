@@ -16,7 +16,8 @@
           align-items: center;
   line-height: 24rpx;
   padding: 4rpx 8rpx;
-  border-radius: 100rpx;
+  -webkit-border-radius: 100rpx;
+          border-radius: 100rpx;
 }
 .u-badge--bg--primary.data-v-2b1712d8 {
   background-color: #2979ff;
@@ -36,7 +37,8 @@
 .u-badge-dot.data-v-2b1712d8 {
   height: 16rpx;
   width: 16rpx;
-  border-radius: 100rpx;
+  -webkit-border-radius: 100rpx;
+          border-radius: 100rpx;
   line-height: 1;
 }
 .u-badge-mini.data-v-2b1712d8 {

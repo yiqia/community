@@ -7,7 +7,11 @@
     "pages/send/send",
     "pages/community/index",
     "pages/my/info",
+    "pages/my/set",
     "pages/my/userSend",
+    "pages/send/feedback",
+    "pages/about/about",
+    "pages/search/search",
     "pages/home/index3"
   ],
   "subPackages": [],

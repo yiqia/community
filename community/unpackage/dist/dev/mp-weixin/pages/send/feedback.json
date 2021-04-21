@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "反馈",
+  "usingComponents": {
+    "header-title": "/components/header-title/header-title",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item"
+  }
+}

@@ -13,7 +13,7 @@ class Community{
 		return paging;
 	}
 	static makeImages(data,isHeader=true){
-		data.forEach((item)=>{
+		data && data.forEach((item)=>{
 			//是否开启图片压缩
 			if(config.compress){
 				if(item.avatar&&isHeader)item.avatar+=config.headerCompressRule;

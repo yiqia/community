@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "Tabs-切换",
-  "usingComponents": {
-    "u-toast": "/uview-ui/components/u-toast/u-toast",
-    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
-    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
-  }
-}

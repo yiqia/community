@@ -6,7 +6,8 @@
  */
 view.data-v-3b2b1a80,
 scroll-view.data-v-3b2b1a80 {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .data-v-3b2b1a80::-webkit-scrollbar,.data-v-3b2b1a80::-webkit-scrollbar,.data-v-3b2b1a80::-webkit-scrollbar {
   display: none;

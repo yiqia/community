@@ -10,7 +10,8 @@
 }
 .u-picker-view.data-v-70102400 {
   height: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .u-picker-header.data-v-70102400 {
   width: 100%;
@@ -25,7 +26,8 @@
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 30rpx;
   background: #fff;
   position: relative;
@@ -69,7 +71,8 @@
 }
 .u-btn-picker.data-v-70102400 {
   padding: 16rpx;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-align: center;
   text-decoration: none;
 }

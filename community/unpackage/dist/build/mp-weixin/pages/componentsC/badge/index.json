@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "badge-徽标数",
-  "usingComponents": {
-    "u-badge": "/uview-ui/components/u-badge/u-badge",
-    "u-subsection": "/uview-ui/components/u-subsection/u-subsection"
-  }
-}

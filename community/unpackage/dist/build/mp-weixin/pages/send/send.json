@@ -1,12 +1,13 @@
 {
-  "navigationStyle": "custom",
+  "navigationBarTitleText": "发布",
   "usingComponents": {
-    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
-    "u-button": "/uview-ui/components/u-button/u-button",
+    "header-title": "/components/header-title/header-title",
     "u-input": "/uview-ui/components/u-input/u-input",
     "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "upload": "/components/upload/upload",
     "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
     "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-picker": "/uview-ui/components/u-picker/u-picker",
     "u-switch": "/uview-ui/components/u-switch/u-switch"
   }
 }

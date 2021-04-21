@@ -48,7 +48,7 @@ import {getTime} from "../../utils/public.js";
 export default {
 	data() {
 		return {
-			current:0,
+			current:3,
 			tabsCurrent:1,
 			swiperCurrent:0,
 			// tabbar:tabbar,
@@ -253,7 +253,7 @@ export default {
 			const res= await Community.sendFollow(e.Id);
 			uni.hideLoading();
 			var that = this;
-			this.communityList.forEach((item,index)=>{
+			this?.communityList.forEach((item,index)=>{
 				if(item.user_id==e.Id){
 					that.communityList[index].isFollow=!e.isFollow;
 				}

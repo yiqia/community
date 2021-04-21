@@ -33,15 +33,15 @@ export default {
 					count: 0,
 					isDot: false,
 					customIcon: false,
-					path: '/pages/home/index'
+					path: '/pages/home/home'
 				},
-				// {
-				// 	iconPath: 'photo',
-				// 	selectedIconPath: 'photo-fill',
-				// 	text: '放映厅',
-				// 	customIcon: false,
-				// 	path: '/pages/home/index'
-				// },
+				{
+					iconPath: 'photo',
+					selectedIconPath: 'photo-fill',
+					text: '饮食',
+					customIcon: false,
+					path: '/pages/food/index'
+				},
 				{
 					iconPath: '/static/images/send.png',
 					selectedIconPath: '/static/images/send.png',
@@ -50,13 +50,13 @@ export default {
 					customIcon: false,
 					path: '/pages/send/send'
 				},
-				// {
-				// 	iconPath: 'play-right',
-				// 	selectedIconPath: 'play-right-fill',
-				// 	text: '直播',
-				// 	customIcon: false,
-				// 	path: '/pages/home/index'
-				// },
+				{
+					iconPath: 'play-right',
+					selectedIconPath: 'play-right-fill',
+					text: '动态',
+					customIcon: false,
+					path: '/pages/home/index'
+				},
 				{
 					iconPath: 'account',
 					selectedIconPath: 'account-fill',
@@ -79,7 +79,7 @@ export default {
 			});
 		},
 		beforeSwitch(index) {
-			if(index==1){
+			if(index==2){
 				this.show=!this.show;
 				return false;
 			}

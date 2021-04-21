@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
-    "u-row": "/uview-ui/components/u-row/u-row",
-    "u-col": "/uview-ui/components/u-col/u-col"
-  }
-}

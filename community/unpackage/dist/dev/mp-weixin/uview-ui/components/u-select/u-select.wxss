@@ -29,8 +29,10 @@
   color: #606266;
 }
 .u-select--border.data-v-a577ac80 {
-  border-radius: 6rpx;
-  border-radius: 4px;
+  -webkit-border-radius: 6rpx;
+          border-radius: 6rpx;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
   border: 1px solid #dcdfe6;
 }
 .u-select__header.data-v-a577ac80 {
@@ -54,7 +56,8 @@
 }
 .u-select__body__picker-view.data-v-a577ac80 {
   height: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .u-select__body__picker-view__item.data-v-a577ac80 {
   display: -webkit-box;

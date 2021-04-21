@@ -7,6 +7,7 @@
     "upload": "/components/upload/upload",
     "u-cell-group": "/uview-ui/components/u-cell-group/u-cell-group",
     "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
-    "u-picker": "/uview-ui/components/u-picker/u-picker"
+    "u-picker": "/uview-ui/components/u-picker/u-picker",
+    "u-switch": "/uview-ui/components/u-switch/u-switch"
   }
 }

@@ -1,146 +1,20 @@
 {
   "pages": [
     "pages/home/index",
+    "pages/home/index2",
     "pages/my/my",
     "pages/my/login",
-    "pages/example/components",
-    "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
-    "pages/example/js",
-    "pages/example/template",
-    "uview-ui/components/u-full-screen/u-full-screen",
-    "pages/send/send"
+    "pages/send/send",
+    "pages/community/index",
+    "pages/my/info",
+    "pages/my/set",
+    "pages/my/userSend",
+    "pages/send/feedback",
+    "pages/about/about",
+    "pages/search/search",
+    "pages/home/index3"
   ],
-  "subPackages": [
-    {
-      "root": "pages/componentsC",
-      "pages": [
-        "test/index",
-        "gap/index",
-        "subsection/index",
-        "section/index",
-        "link/index",
-        "mask/index",
-        "countTo/index",
-        "color/index",
-        "countDown/index",
-        "progress/index",
-        "alertTips/index",
-        "badge/index",
-        "button/index",
-        "collapse/index",
-        "actionSheet/index",
-        "messageInput/index",
-        "popup/index",
-        "cell/index",
-        "numberBox/index",
-        "grid/index",
-        "layout/index",
-        "loadmore/index"
-      ]
-    },
-    {
-      "root": "pages/template",
-      "pages": [
-        "wxCenter/index",
-        "keyboardPay/index",
-        "mallMenu/index2",
-        "mallMenu/index1",
-        "coupon/index",
-        "login/index",
-        "citySelect/index",
-        "submitBar/index",
-        "comment/index",
-        "comment/reply",
-        "order/index",
-        "login/code",
-        "address/index",
-        "address/addSite"
-      ]
-    },
-    {
-      "root": "pages/library",
-      "pages": [
-        "deepClone/index",
-        "deepMerge/index",
-        "getRect/index",
-        "timeFrom/index",
-        "globalVariable/globalData",
-        "globalVariable/prototype",
-        "globalVariable/vuex",
-        "globalVariable/index",
-        "http/index",
-        "test/index",
-        "mpShare/index",
-        "color/index",
-        "trim/index",
-        "random/index",
-        "md5/index",
-        "colorSwitch/index",
-        "randomArray/index",
-        "guid/index",
-        "timeFormat/index",
-        "route/index",
-        "route/routeTo",
-        "queryParams/index"
-      ]
-    },
-    {
-      "root": "pages/componentsA",
-      "pages": [
-        "parse/index",
-        "backTop/index",
-        "calendar/index",
-        "form/index",
-        "select/index",
-        "slider/index",
-        "fullScreen/index",
-        "navbar/index",
-        "field/index",
-        "modal/index",
-        "indexList/index",
-        "empty/index",
-        "avatarCropper/index",
-        "noNetwork/index",
-        "icon/index",
-        "avatar/index",
-        "keyboard/index",
-        "lazyLoad/index",
-        "tabs/index",
-        "tag/index",
-        "timeLine/index",
-        "toast/index",
-        "topTips/index",
-        "verificationCode/index"
-      ]
-    },
-    {
-      "root": "pages/componentsB",
-      "pages": [
-        "tabbar/index",
-        "line/index",
-        "image/index",
-        "card/index",
-        "divider/index",
-        "picker/index",
-        "noticeBar/index",
-        "checkbox/index",
-        "radio/index",
-        "loading/index",
-        "switch/index",
-        "skeleton/index",
-        "upload/index",
-        "waterfall/index",
-        "table/index",
-        "rate/index",
-        "readMore/index",
-        "search/index",
-        "steps/index",
-        "sticky/index",
-        "swiper/index",
-        "swipeAction/index"
-      ]
-    }
-  ],
+  "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uView",
@@ -154,35 +28,18 @@
     "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/example/components",
+        "pagePath": "pages/home/index2",
         "iconPath": "static/uview/example/component.png",
         "selectedIconPath": "static/uview/example/component_select.png",
         "text": "组件"
       },
       {
-        "pagePath": "pages/example/js",
-        "iconPath": "static/uview/example/js.png",
-        "selectedIconPath": "static/uview/example/js_select.png",
-        "text": "工具"
-      },
-      {
-        "pagePath": "pages/example/template",
-        "iconPath": "static/uview/example/template.png",
-        "selectedIconPath": "static/uview/example/template_select.png",
-        "text": "模板"
+        "pagePath": "pages/home/index3",
+        "iconPath": "static/uview/example/component.png",
+        "selectedIconPath": "static/uview/example/component_select.png",
+        "text": "组件"
       }
     ]
   },
-  "preloadRule": {
-    "pages/example/components": {
-      "network": "all",
-      "packages": [
-        "pages/componentsA",
-        "pages/componentsB",
-        "pages/componentsC"
-      ]
-    }
-  },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

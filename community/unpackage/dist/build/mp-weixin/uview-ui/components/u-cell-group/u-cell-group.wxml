@@ -1,1 +1,1 @@
-<view class="u-cell-box data-v-090c62ca"><block wx:if="{{title}}"><view class="u-cell-title data-v-090c62ca" style="{{$root.s0}}">{{''+title+''}}</view></block><view class="{{['u-cell-item-box data-v-090c62ca',(border)?'u-border-bottom u-border-top':'']}}"><slot></slot></view></view>
+<view class="u-cell-box data-v-27c83fa8"><block wx:if="{{title}}"><view class="u-cell-title data-v-27c83fa8" style="{{$root.s0}}">{{''+title+''}}</view></block><view class="{{['u-cell-item-box data-v-27c83fa8',(border)?'u-border-bottom u-border-top':'']}}"><slot></slot></view></view>

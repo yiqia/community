@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人动态",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "user-header": "/components/user-header/user-header",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "community-card": "/components/community-card/index"
+  }
+}

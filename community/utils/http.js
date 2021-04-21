@@ -77,6 +77,26 @@ class Http{
             header
         })).data
     }
+	static async mocksend({url,data,method='GET'}){
+	    const token = uni.getStorageSync('token');
+	    var header="";
+	    if(token){
+	       header= {
+	           'Content-Type': 'application/json; charset=utf-8',
+	           'token':token
+	       }
+	    }else{
+	        header= {
+	            'Content-Type': 'application/json; charset=utf-8'
+	        }
+	    }
+	    return (await promisic(wx.request)({
+	        url:`${config.apimockUrl}${url}`,
+	        data,
+	        method,
+	        header
+	    })).data
+	}
 	/*上传文件封装，{请求地址 文件临时地址，请求头，请求参数} */
 	static async upload({url,file,data}){
 		const token = uni.getStorageSync('token');

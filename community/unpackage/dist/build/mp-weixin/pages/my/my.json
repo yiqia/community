@@ -1,10 +1,9 @@
 {
   "navigationBarTitleText": "我的",
   "usingComponents": {
-    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
-    "u-row": "/uview-ui/components/u-row/u-row",
-    "u-col": "/uview-ui/components/u-col/u-col",
+    "user-header": "/components/user-header/user-header",
+    "u-button": "/uview-ui/components/u-button/u-button",
     "grid": "/components/grid/grid",
-    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar"
+    "tabbar": "/components/tabbar/tabbar"
   }
 }

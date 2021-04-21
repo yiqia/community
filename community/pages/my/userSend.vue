@@ -114,7 +114,7 @@ export default {
 			const res = await Community.sendFollow(e.Id);
 			uni.hideLoading();
 			var that = this;
-			this.communityList.forEach((item, index) => {
+			this?.communityList.forEach((item, index) => {
 				if (item.user_id == e.Id) {
 					that.communityList[index].isFollow = !e.isFollow;
 				}

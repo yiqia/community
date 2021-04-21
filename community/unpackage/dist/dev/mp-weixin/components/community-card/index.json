@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
     "u-button": "/uview-ui/components/u-button/u-button",
     "u-icon": "/uview-ui/components/u-icon/u-icon",
     "u-select": "/uview-ui/components/u-select/u-select",

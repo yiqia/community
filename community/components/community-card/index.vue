@@ -206,7 +206,7 @@
 			//查看图片
 			showImages(e){
 				var images=[];
-				this.info.images.forEach((item,index)=>{
+				this.info?.images.forEach((item,index)=>{
 					if(item.indexOf('?')){
 						images[index]=item.split('?')[0]
 					}else{
